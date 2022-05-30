@@ -1,0 +1,55 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;900&display=swap"); */
+@font-face {
+    font-family: sovana;
+    src: url(../font/sovana/sovana-regular-webfont.woff2) format("woff2"), url(../font/sovana/sovana-regular-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: oxta;
+    src: url(../font/oxta/oxta-webfont.woff2) format("woff2"), url(../font/oxta/oxta-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+html {
+    background: #000
+}
+
+body,
+html {
+    scroll-padding-top: 150px;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth
+}
+
+.disable {
+    overflow: hidden
+}
+
+.disable_body {
+    overflow-x: hidden
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+:root {
+    --plyr-color-main: #701bfb
+}
+
+@media only screen and (max-width:600px) {
+    .disable_body {
+        overflow-x: hidden
+    }
+}

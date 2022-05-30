@@ -1,0 +1,72 @@
+.Home_container__bCOhY {
+    background-color: #000
+}
+
+.Home_main__nLjiQ {
+    min-height: 100vh;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sovana
+}
+
+.Home_navbar__H7ooC {
+    font-family: Space Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+}
+
+.Home_ghosts__pnC3B {
+    width: 100%;
+    margin-top: 10em
+}
+
+.Home_team__9sDxm {
+    width: 100%;
+    background-image: url(../../src/assets/background/team-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 2em;
+    padding-top: 12em;
+    padding-bottom: 40em
+}
+
+.Home_title__T09hD {
+    font-family: oxta;
+    letter-spacing: 20px;
+    font-size: 23px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 20px -1em 10px 0
+}
+
+.Home_footer____T7K {
+    display: flex;
+    flex: 1 1;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    background: #090a0c;
+    height: 440px;
+    margin-top: 6rem
+}
+
+@media only screen and (min-width:1870px) {
+    .Home_team__9sDxm {
+        background-size: 100% 100%
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .Home_title__T09hD {
+        font-size: 18px;
+        letter-spacing: 18px
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Home_title__T09hD {
+        font-size: 18px;
+        letter-spacing: 15px
+    }
+}
